@@ -16,7 +16,7 @@ getHospitals();
 
 function getHospitals() {
     //url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&keyword=hospital%clinica%centro&type=hospital&key=${token}&pagetoken=${nextPage}`;
-    url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=hospitals+in+${city}&key=AIzaSyC-ukkQ3n0lrfQ3IBe5HEMgomaP2hUOMJk&pagetoken=${nextPage}`;
+    url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=hospitals+in+${city}&key=${token}&pagetoken=${nextPage}`;
     request({url: url}, (error, response) => {
         let data = JSON.parse(response.body);
         data.results.forEach(place => {
