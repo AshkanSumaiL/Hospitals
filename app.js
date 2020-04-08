@@ -1,15 +1,14 @@
 const request = require('request');
 
 
-const token='AIzaSyC-ukkQ3n0lrfQ3IBe5HEMgomaP2hUOMJk';
-const lat=-17.3836317;
-const lng=-66.2658546;
-const radius=5000;
-const GOOGLE_PAGINATION_DELAY=1000;
-var nextPage='';
+const token = 'AIzaSyC-ukkQ3n0lrfQ3IBe5HEMgomaP2hUOMJk';
+const lat = -17.3836317;
+const lng = -66.2658546;
+const radius = 5000;
+const GOOGLE_PAGINATION_DELAY = 1000;
+var nextPage = '';
 var url;
-var hospitals=[];
-
+var hospitals = [];
 
 
 getHospitals();
@@ -20,9 +19,9 @@ function getHospitals() {
         let data = JSON.parse(response.body);
         data.results.forEach(place => {
             hospitals.push({
-                name:place.name,
-                lat:place.geometry.location.lat,
-                lng:place.geometry.location.lng
+                name: place.name,
+                lat: place.geometry.location.lat,
+                lng: place.geometry.location.lng
             });
         });
 
@@ -30,8 +29,8 @@ function getHospitals() {
             nextPage = data.next_page_token;
             setTimeout(() => {
                 getHospitals();
-                }, GOOGLE_PAGINATION_DELAY);
-        }else{
+            }, GOOGLE_PAGINATION_DELAY);
+        } else {
             console.log(hospitals);
         }
     })
