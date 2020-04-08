@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35787703-2c1f-4cb0-b542-f004da6818fe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1aEHZLWne3xtHCcpB3ovtPCd7Hx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35787703-2c1f-4cb0-b542-f004da6818fe" name="Default Changelist" comment="" />
+      <created>1586293887090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586293887090</updated>
+      <workItem from="1586293889595" duration="16862000" />
+      <workItem from="1586352271120" duration="387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="75" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586352307340">
+      <screen x="67" y="25" width="1293" height="587" />
+    </state>
+    <state x="496" y="75" width="424" height="484" key="FileChooserDialogImpl/67.25.1293.587@67.25.1293.587" timestamp="1586352307340" />
+    <state width="1272" height="320" key="GridCell.Tab.0.bottom" timestamp="1586352646896">
+      <screen x="67" y="25" width="1293" height="587" />
+    </state>
+    <state width="1272" height="320" key="GridCell.Tab.0.bottom/67.25.1293.587@67.25.1293.587" timestamp="1586352646896" />
+    <state width="1272" height="320" key="GridCell.Tab.0.center" timestamp="1586352646895">
+      <screen x="67" y="25" width="1293" height="587" />
+    </state>
+    <state width="1272" height="320" key="GridCell.Tab.0.center/67.25.1293.587@67.25.1293.587" timestamp="1586352646895" />
+    <state width="1272" height="320" key="GridCell.Tab.0.left" timestamp="1586352646894">
+      <screen x="67" y="25" width="1293" height="587" />
+    </state>
+    <state width="1272" height="320" key="GridCell.Tab.0.left/67.25.1293.587@67.25.1293.587" timestamp="1586352646894" />
+    <state width="1272" height="320" key="GridCell.Tab.0.right" timestamp="1586352646896">
+      <screen x="67" y="25" width="1293" height="587" />
+    </state>
+    <state width="1272" height="320" key="GridCell.Tab.0.right/67.25.1293.587@67.25.1293.587" timestamp="1586352646896" />
+    <state x="377" y="136" key="run.anything.popup" timestamp="1586302419577">
+      <screen x="67" y="25" width="1293" height="587" />
+    </state>
+    <state x="377" y="136" key="run.anything.popup/67.25.1293.587@67.25.1293.587" timestamp="1586302419577" />
+  </component>
+</project>
